@@ -1,0 +1,15 @@
+name: "Get next version"
+description: "Outputs the next version number"
+branding:
+  icon: 'clock'
+  color: 'orange'
+inputs:
+  githubToken:
+    description: 'The secret github token'
+    required: true
+  part:
+    description: 'Version part to upgrade'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
