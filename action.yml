@@ -4,9 +4,6 @@ branding:
   icon: 'clock'
   color: 'orange'
 inputs:
-  githubToken:
-    description: 'The secret github token'
-    required: true
   part:
     description: 'Version part to upgrade'
     required: true

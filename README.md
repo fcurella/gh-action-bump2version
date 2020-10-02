@@ -18,7 +18,6 @@ jobs:
         id: nextversion
         uses: "fcurella/gh-action-bump2version@main"
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN}}
           part: "major"
 ```
 
@@ -26,5 +25,4 @@ jobs:
 
 ### Inputs
 
-* `githubToken` -
 * `part` - 
